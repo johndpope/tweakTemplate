@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A802E9231CBBAEA90039FEA4 /* tweakTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A802E9221CBBAEA90039FEA4 /* tweakTemplate.h */; };
+		A802E9261CBBAF720039FEA4 /* YYHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A802E9241CBBAF720039FEA4 /* YYHelper.mm */; };
+		A802E9271CBBAF720039FEA4 /* YYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A802E9251CBBAF720039FEA4 /* YYHelper.h */; };
+		A802E92D1CBBB1030039FEA4 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A802E92C1CBBB1030039FEA4 /* libsubstrate.dylib */; };
+		A802E92F1CBBB50B0039FEA4 /* defs.h in Headers */ = {isa = PBXBuildFile; fileRef = A802E92E1CBBB50B0039FEA4 /* defs.h */; };
+		A802E9351CBCA5240039FEA4 /* UIImage+UIInage_GrayData.mm in Sources */ = {isa = PBXBuildFile; fileRef = A802E9311CBCA5240039FEA4 /* UIImage+UIInage_GrayData.mm */; };
+		A802E9361CBCA5240039FEA4 /* UIImage+UIInage_GrayData.h in Headers */ = {isa = PBXBuildFile; fileRef = A802E9321CBCA5240039FEA4 /* UIImage+UIInage_GrayData.h */; };
+		A802E9371CBCA5240039FEA4 /* UIImage+ARGBData.mm in Sources */ = {isa = PBXBuildFile; fileRef = A802E9331CBCA5240039FEA4 /* UIImage+ARGBData.mm */; };
+		A802E9381CBCA5240039FEA4 /* UIImage+ARGBData.h in Headers */ = {isa = PBXBuildFile; fileRef = A802E9341CBCA5240039FEA4 /* UIImage+ARGBData.h */; };
+		A802E93C1CBCC0B70039FEA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A802E93B1CBCC0B70039FEA4 /* CoreGraphics.framework */; };
+		A8ABEFED1CA11C2200BA71F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8ABEFEC1CA11C2200BA71F4 /* Foundation.framework */; };
+		A8ABEFF81CA11C2200BA71F4 /* tweakTemplate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8ABEFF71CA11C2200BA71F4 /* tweakTemplate.mm */; };
+		A8ABF0031CA11C3800BA71F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8ABF0021CA11C3800BA71F4 /* UIKit.framework */; };
+		A8ABF0071CA11C5D00BA71F4 /* substrate.h in Headers */ = {isa = PBXBuildFile; fileRef = A8ABF0061CA11C5D00BA71F4 /* substrate.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A802E9221CBBAEA90039FEA4 /* tweakTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweakTemplate.h; sourceTree = "<group>"; };
+		A802E9241CBBAF720039FEA4 /* YYHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YYHelper.mm; sourceTree = "<group>"; };
+		A802E9251CBBAF720039FEA4 /* YYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
+		A802E92C1CBBB1030039FEA4 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		A802E92E1CBBB50B0039FEA4 /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		A802E9311CBCA5240039FEA4 /* UIImage+UIInage_GrayData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+UIInage_GrayData.mm"; sourceTree = "<group>"; };
+		A802E9321CBCA5240039FEA4 /* UIImage+UIInage_GrayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIInage_GrayData.h"; sourceTree = "<group>"; };
+		A802E9331CBCA5240039FEA4 /* UIImage+ARGBData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+ARGBData.mm"; sourceTree = "<group>"; };
+		A802E9341CBCA5240039FEA4 /* UIImage+ARGBData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ARGBData.h"; sourceTree = "<group>"; };
+		A802E9391CBCC0990039FEA4 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A802E93B1CBCC0B70039FEA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8ABEFE91CA11C2200BA71F4 /* tweakTemplate.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = tweakTemplate.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8ABEFEC1CA11C2200BA71F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8ABEFF11CA11C2200BA71F4 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		A8ABEFF21CA11C2200BA71F4 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		A8ABEFF41CA11C2200BA71F4 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		A8ABEFF51CA11C2200BA71F4 /* tweakTemplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tweakTemplate-Prefix.pch"; sourceTree = "<group>"; };
+		A8ABEFF71CA11C2200BA71F4 /* tweakTemplate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = tweakTemplate.mm; sourceTree = "<group>"; };
+		A8ABEFFC1CA11C2200BA71F4 /* tweakTemplate.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = tweakTemplate.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/tweakTemplate.plist; sourceTree = "<group>"; };
+		A8ABF0021CA11C3800BA71F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8ABF0061CA11C5D00BA71F4 /* substrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = substrate.h; path = ../../../../../opt/iOSOpenDev/include/substrate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8ABEFE51CA11C2200BA71F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A802E93C1CBCC0B70039FEA4 /* CoreGraphics.framework in Frameworks */,
+				A802E92D1CBBB1030039FEA4 /* libsubstrate.dylib in Frameworks */,
+				A8ABF0031CA11C3800BA71F4 /* UIKit.framework in Frameworks */,
+				A8ABEFED1CA11C2200BA71F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8ABEFDE1CA11C2200BA71F4 = {
+			isa = PBXGroup;
+			children = (
+				A8ABEFEE1CA11C2200BA71F4 /* tweakTemplate */,
+				A8ABEFEB1CA11C2200BA71F4 /* Frameworks */,
+				A8ABEFEA1CA11C2200BA71F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8ABEFEA1CA11C2200BA71F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8ABEFE91CA11C2200BA71F4 /* tweakTemplate.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8ABEFEB1CA11C2200BA71F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A802E93B1CBCC0B70039FEA4 /* CoreGraphics.framework */,
+				A802E9391CBCC0990039FEA4 /* CoreImage.framework */,
+				A802E92C1CBBB1030039FEA4 /* libsubstrate.dylib */,
+				A8ABF0021CA11C3800BA71F4 /* UIKit.framework */,
+				A8ABEFEC1CA11C2200BA71F4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8ABEFEE1CA11C2200BA71F4 /* tweakTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				A802E9311CBCA5240039FEA4 /* UIImage+UIInage_GrayData.mm */,
+				A802E9321CBCA5240039FEA4 /* UIImage+UIInage_GrayData.h */,
+				A802E9331CBCA5240039FEA4 /* UIImage+ARGBData.mm */,
+				A802E9341CBCA5240039FEA4 /* UIImage+ARGBData.h */,
+				A802E92E1CBBB50B0039FEA4 /* defs.h */,
+				A802E9241CBBAF720039FEA4 /* YYHelper.mm */,
+				A802E9251CBBAF720039FEA4 /* YYHelper.h */,
+				A8ABF0061CA11C5D00BA71F4 /* substrate.h */,
+				A802E9221CBBAEA90039FEA4 /* tweakTemplate.h */,
+				A8ABEFF71CA11C2200BA71F4 /* tweakTemplate.mm */,
+				A8ABEFEF1CA11C2200BA71F4 /* Package */,
+				A8ABEFF31CA11C2200BA71F4 /* Supporting Files */,
+			);
+			path = tweakTemplate;
+			sourceTree = "<group>";
+		};
+		A8ABEFEF1CA11C2200BA71F4 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				A8ABEFF01CA11C2200BA71F4 /* DEBIAN */,
+				A8ABEFF91CA11C2200BA71F4 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		A8ABEFF01CA11C2200BA71F4 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				A8ABEFF11CA11C2200BA71F4 /* control.txt */,
+				A8ABEFF21CA11C2200BA71F4 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		A8ABEFF31CA11C2200BA71F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8ABEFF41CA11C2200BA71F4 /* PackageVersion.plist */,
+				A8ABEFF51CA11C2200BA71F4 /* tweakTemplate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8ABEFF91CA11C2200BA71F4 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A8ABEFFA1CA11C2200BA71F4 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A8ABEFFA1CA11C2200BA71F4 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				A8ABEFFB1CA11C2200BA71F4 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		A8ABEFFB1CA11C2200BA71F4 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				A8ABEFFC1CA11C2200BA71F4 /* tweakTemplate.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A8ABEFE61CA11C2200BA71F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A802E9361CBCA5240039FEA4 /* UIImage+UIInage_GrayData.h in Headers */,
+				A802E9271CBBAF720039FEA4 /* YYHelper.h in Headers */,
+				A802E9381CBCA5240039FEA4 /* UIImage+ARGBData.h in Headers */,
+				A8ABF0071CA11C5D00BA71F4 /* substrate.h in Headers */,
+				A802E92F1CBBB50B0039FEA4 /* defs.h in Headers */,
+				A802E9231CBBAEA90039FEA4 /* tweakTemplate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A8ABEFE81CA11C2200BA71F4 /* tweakTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8ABEFFF1CA11C2200BA71F4 /* Build configuration list for PBXNativeTarget "tweakTemplate" */;
+			buildPhases = (
+				A8ABEFE31CA11C2200BA71F4 /* ShellScript */,
+				A8ABEFE41CA11C2200BA71F4 /* Sources */,
+				A8ABEFE51CA11C2200BA71F4 /* Frameworks */,
+				A8ABEFE61CA11C2200BA71F4 /* Headers */,
+				A8ABEFE71CA11C2200BA71F4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tweakTemplate;
+			productName = tweakTemplate;
+			productReference = A8ABEFE91CA11C2200BA71F4 /* tweakTemplate.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8ABEFDF1CA11C2200BA71F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					A8ABEFE81CA11C2200BA71F4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GWM79UVWJ8;
+					};
+				};
+			};
+			buildConfigurationList = A8ABEFE21CA11C2200BA71F4 /* Build configuration list for PBXProject "tweakTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8ABEFDE1CA11C2200BA71F4;
+			productRefGroup = A8ABEFEA1CA11C2200BA71F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8ABEFE81CA11C2200BA71F4 /* tweakTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8ABEFE31CA11C2200BA71F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		A8ABEFE71CA11C2200BA71F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8ABEFE41CA11C2200BA71F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8ABEFF81CA11C2200BA71F4 /* tweakTemplate.mm in Sources */,
+				A802E9371CBCA5240039FEA4 /* UIImage+ARGBData.mm in Sources */,
+				A802E9351CBCA5240039FEA4 /* UIImage+UIInage_GrayData.mm in Sources */,
+				A802E9261CBBAF720039FEA4 /* YYHelper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8ABEFFD1CA11C2200BA71F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		A8ABEFFE1CA11C2200BA71F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		A8ABF0001CA11C2200BA71F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tweakTemplate/tweakTemplate-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					/opt/theos/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.8;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		A8ABF0011CA11C2200BA71F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tweakTemplate/tweakTemplate-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					/opt/theos/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.8;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8ABEFE21CA11C2200BA71F4 /* Build configuration list for PBXProject "tweakTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8ABEFFD1CA11C2200BA71F4 /* Debug */,
+				A8ABEFFE1CA11C2200BA71F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8ABEFFF1CA11C2200BA71F4 /* Build configuration list for PBXNativeTarget "tweakTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8ABF0001CA11C2200BA71F4 /* Debug */,
+				A8ABF0011CA11C2200BA71F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8ABEFDF1CA11C2200BA71F4 /* Project object */;
+}
